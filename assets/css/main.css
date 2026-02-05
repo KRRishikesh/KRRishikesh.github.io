@@ -33,6 +33,25 @@ body {
 	line-height: 1;
 }
 
+.skills-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1em;
+}
+
+.skills-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+}
+
+.skills-list i {
+  color: #242424; /* matches modern dev/tech look */
+  font-size: 0.9rem;
+}
+
 .show-more-btn {
   padding: 12px 24px;
   font-size: 16px;
@@ -430,6 +449,13 @@ input, select, textarea {
 		box-sizing: border-box;
 		align-items: stretch;
 	}
+			.row > div {
+		display: flex;
+		}
+
+		.row > div > .box {
+		flex: 1;
+		}
 
 		.row > * {
 			box-sizing: border-box;
